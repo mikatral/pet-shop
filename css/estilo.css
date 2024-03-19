@@ -1,0 +1,221 @@
+/* INICIO CSS GLOBAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+span{
+    font-weight: 700;
+    font-style: italic;
+}
+/* SEÇÃO BANNER */
+.secao-topo{
+    width: 100%;
+    padding: 120px 80px;
+    background-image: url(/img/banner-topo.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.secao-logo{
+    max-width: 250px;
+    color: #3c184e;
+
+}
+
+.secao-logo img{
+    width: 30px;
+    margin-right: 5px;
+    
+}
+
+.primeiro-paragrafo{
+    font-size: 35px;
+    margin: 0 0 5px;
+    
+}
+
+.segundo-paragrafo{
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+.secao-banner{
+    max-width: 1024px;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 70px auto 0 auto;
+    background-color: #ffffffc4;
+    box-shadow: 0 8px 32px #1f26875e;
+}
+
+.secao-banner h1{
+    font-size: 60px;
+    color: #3c184e;
+    text-align: center;
+    font-weight: 800;
+    margin: 0 0 0 40px;
+}
+
+.secao-banner p{
+    width: 200px;
+    padding: 10px 25px;
+    margin: 0 auto 0 auto;
+    border-radius: 10px;
+    background-color:  #3c184e;
+    text-align: center;
+    
+    
+}
+.secao-banner a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 20px;
+}
+
+.secao-banner img{
+    width: 20px;
+}
+
+/* SEÇAO SERVIÇOS */
+
+.secao-servicos{
+    width: 100%;
+    padding: 120px 80px;
+}
+
+.secao-servicos h3{
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.secao-servicos ul{
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    color: #3c184e;
+    
+}
+
+.secao-servicos li{
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+.imagem-servico img{
+    border-radius: 5px;
+    box-shadow: 3px 6px 10px 6px #0000005c;
+    
+}
+
+.imagem-servico li{
+    display: inline;
+}
+
+/* FAIXAS (DIVISAO) */
+
+.faixas{
+    padding: 120px 80px;
+    background-color: #3c184e;
+    text-align: center;
+    width: 100%;
+}
+
+.faixas p{
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 40px;
+    color: #ffff;
+    text-align: center;
+}
+
+.faixas a{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+
+}
+
+.faixas img{
+    width: 50px;
+}
+
+/* Marcas */
+
+.marcas{
+    width: 100%;
+    padding: 120px 80px;
+}
+
+.marcas h3{
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.marcas ul{
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+.marcas img{
+    width: 148px;
+    height: 148px;
+    margin: 0 15px;
+}
+
+/* MAPA ONDE ESTAMOS */
+
+.secao-mapa{
+    width: 100%;
+    padding: 120px 80px;
+    text-align: center;
+}
+
+.secao-mapa h3{
+    font-size: 36px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+
+}
+
+.secao-mapa p{
+    font-size: 20px;
+    color: #3c184e;
+    text-align: center;
+    margin: 0 0 45px 0;
+}
+
+.secao-mapa iframe{
+    width: 800px;
+    height: 450px;
+}
+
+/* RODAPE */
+
+.rodape{
+    width: 100%;
+    padding: 10px 0;
+    background-color: #3c184e;
+}
+
+.rodape p{
+    color: #ffff;
+    font-size: 12px;
+    text-align: center;
+}
